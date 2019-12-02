@@ -6,7 +6,7 @@
 
 ## Introduction
 
-ES6 gives us new ways to declare variables that help us out with scoping. 
+ES6 gives us new ways to declare variables that help us out with scoping.
 The `var` keyword defines a variable globally or locally to an entire function
 regardless of block scope. With `const` and `let`, declaring variables with
 `var` is generally discouraged. In this lab, you'll need to debug some issues
@@ -19,13 +19,16 @@ be a little chaotic.
 To review:
 * A variable or function that is not declared inside a function or block
 is the **global** execution context.
+
 * `let` variables are **block-scoped**, and allows you to declare variables
 that are limited in scope to the block, statement, or expression on which
 it is used
+
 * `const` is also **block-scoped** restricts over-writing variables. It does
 not mean the value it holds is immutable, just that the variable identifier
 cannot be reassigned. `const` variables also cannot be declared a without
 assigning its (constant) value
+
 * Variables declared with `var` are **not** block-scoped, and leaves room
 for error
 
