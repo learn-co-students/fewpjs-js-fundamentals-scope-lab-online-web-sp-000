@@ -1,6 +1,7 @@
-animal = ""
+const animal = "cat"
 
 function myAnimal() {
+  var animal = "dog"
   return animal
 }
 
@@ -10,10 +11,10 @@ function yourAnimal() {
   // P.S.: You can't just hard-code 'cat' below
   return animal
 }
-
+  const two = 2
 function add2(n) {
   return n + two
 
   // Feel free to move things around!
-  two = 2
+
 }
