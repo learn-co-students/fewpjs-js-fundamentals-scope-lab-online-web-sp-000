@@ -4,7 +4,7 @@ const babel = require('babel-core');
 const jsdom = require('jsdom');
 const path = require('path');
 
-before(function(done) {
+before(function (done) {
   const js = path.resolve(__dirname, '..', 'index.js');
   const babelResult = babel.transformFileSync(js, {
     presets: ['es2015']
