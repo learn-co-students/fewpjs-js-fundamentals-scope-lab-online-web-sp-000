@@ -41,3 +41,24 @@ unexpected issues.
 - [MDN: Scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
 - [MDN: const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
 - [MDN: let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+
+
+animal = ""
+
+function myAnimal() {
+  return animal
+}
+
+function yourAnimal() {
+  // How can we make sure that this function
+  // and the above function both pass?
+  // P.S.: You can't just hard-code 'cat' below
+  return animal
+}
+
+function add2(n) {
+  return n + two
+
+  // Feel free to move things around!
+  two = 2
+}
