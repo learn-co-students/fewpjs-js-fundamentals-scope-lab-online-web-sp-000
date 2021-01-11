@@ -1,11 +1,11 @@
-function myAnimal() {
-  let animal = "dog";
+let animal;
+
+function myAnimal(animal) {
+  // let animal = "dog";
   return animal
 }
 
-var animal;
-
-function yourAnimal() {
+function yourAnimal(animal) {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
@@ -15,6 +15,5 @@ function yourAnimal() {
 function add2(n) {
   let two = 2;
   return n + two
-
   // Feel free to move things around!
 }
