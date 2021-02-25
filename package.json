@@ -4,7 +4,7 @@
   "description": "Practice with function scope in JavaScript on Learn.co",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+    "test": "mocha -R mocha-multi --timeout 30000 --reporter-options nyan=-,json=.results.json"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,5 @@
     "mocha": "^2.4.5",
     "mocha-jsdom": "~1.1.0",
     "mocha-multi": "^0.9.0"
-  },
-  "dependencies": {}
+  }
 }
